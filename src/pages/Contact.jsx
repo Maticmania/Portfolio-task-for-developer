@@ -39,10 +39,10 @@ const ContactForm = () => {
     if (Object.keys(validationErrors).length === 0) {
       emailjs
         .send(
-          'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-          'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+          'SERVICE_ID', //  EmailJS service ID
+          'TEMPLATE_ID', // EmailJS template ID
           formData,
-          'YOUR_USER_ID' // Replace with your EmailJS user ID
+          'USER_ID' //  EmailJS user ID
         )
         .then(
           (result) => {
