@@ -4,7 +4,7 @@ import me from '../assets/Images/AboutPic.png';
 const About = () => {
   return (
     <div
-      className="container mx-auto flex flex-col-reverse xl:flex-row  min-h-screen px-4 xl:px-16"
+      className="container mx-auto flex flex-col-reverse xl:flex-row max-h-[1000px] px-4 xl:px-16"
       id="about"
     >
       <div className="w-full xl:w-1/2 h-full">

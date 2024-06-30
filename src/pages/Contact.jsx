@@ -57,7 +57,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center py-16 px-4 xl:px-0" id='contact'>
+    <div className="flex items-center justify-center py-16 px-4 xl:px-0" id='contact'>
       <div className="w-full max-w-3xl">
         <h2 className="text-2xl font-bold text-center mb-4">Get In Touch</h2>
         <h2 className="text-5xl font-bold text-center mb-4">Contact me</h2>

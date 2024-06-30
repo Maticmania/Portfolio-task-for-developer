@@ -4,8 +4,8 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F5FCFF] py-8">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <footer className=" py-8 container bg-[#F5FCFF] mx-auto ">
+      <div className="px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center space-x-4">
         <div className="background-image-container"></div>
           <span className="text-xl font-semibold">JohnDev,</span>

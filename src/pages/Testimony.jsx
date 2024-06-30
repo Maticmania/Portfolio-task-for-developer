@@ -48,9 +48,9 @@ const Testimonial = ({ image, name, company, rating, text }) => (
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#F5FCFF]">
+    <div className="">
       <div
-        className="container mx-auto px-4 xl:px-16 py-16 min-h-screen place-content-center space-y-12 xl:space-y-20"
+        className="container bg-[#F5FCFF] mx-auto px-4 xl:px-16 py-16 place-content-center space-y-12 xl:space-y-20"
         id="testimonials"
       >
         <div className="space-y-4 ">
